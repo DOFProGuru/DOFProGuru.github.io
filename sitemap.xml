@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dofpro.org/Rocketry.html</loc>
-    <lastmod>2024-04-19T16:35:04.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dofpro.org/index.html</loc>
-    <lastmod>2024-04-19T17:08:55.939Z</lastmod>
-  </url>
-  <url>
     <loc>https://dofpro.org/ChemE.html</loc>
-    <lastmod>2024-04-19T16:35:04.770Z</lastmod>
+    <lastmod>2024-04-19T19:26:14.272Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dofpro.org/Rocketry.html</loc>
+    <lastmod>2024-04-19T19:26:14.272Z</lastmod>
   </url>
   <url>
     <loc>https://dofpro.org/samples.html</loc>
-    <lastmod>2024-04-19T16:35:04.785Z</lastmod>
+    <lastmod>2024-04-19T19:26:14.272Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dofpro.org/index.html</loc>
+    <lastmod>2024-04-19T19:26:14.272Z</lastmod>
   </url>
 </urlset>

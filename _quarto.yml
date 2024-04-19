@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "Degrees of Freedom Project"
@@ -20,3 +19,5 @@ format:
     css: styles.css
     toc: true
 
+execute:
+  freeze: auto

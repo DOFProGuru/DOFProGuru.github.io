@@ -21,6 +21,4 @@ You can read more about the High Power Rocketry work at the [link above](Rocketr
 
 If you would like to join our team, please submit two samples of your work, chosen from the [List of Samples](samples.qmd) page.
 
-Line for testing "quarto publish."
-
-Again, testing quarto publish
+Now try auto publish

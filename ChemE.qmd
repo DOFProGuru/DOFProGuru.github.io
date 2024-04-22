@@ -17,5 +17,5 @@ The existing course websites, with links to the videos, are:
   
 We are planning on rescripting and reshooting all of the videos, reorganizing and rewriting the websites, and converting all of the examples, problem sets, projects, and solutions to creative commons and open-source software. 
 
-We have the [initial website](https://erik.spjut.me/CTP/) for the [Chemical and Thermal Processes](https://erik.spjut.me/CTP/) materials up. It is currently a very rough skeletal outline. Do not count on the URL to remain constant, as we may change it. Please just use it to get an idea of our current thinking.
+The link to the [Chemical and Thermal Processes website](https://dofpro.org/CTP/) is [here](https://dofpro.org/CTP/). It is currently a very rough skeletal outline but will see rapid development over the next several months.
 

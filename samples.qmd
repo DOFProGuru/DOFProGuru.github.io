@@ -22,8 +22,8 @@ The prinicipal tasks in the area of scripts are rewriting existing scripts, writ
 Graphics Production involves many aspect of the project. We need title screens for the videos, logos for the videos and the websites, storyboards for the scripts, creation of the visuals for the videos and websites, and other elements of the graphic design for the websites and videos. The available sampel tasks are:
 
  1. Create an overall logo for [DOFPro](index.qmd).
- 2. Create a logo for the [Chemical and Thermal Processes website](https://erik.spjut.me/CTP/).
- 3. Create a logo for the [Rocketry website](https://erik.spjut.me/RCK/).
+ 2. Create a logo for the [Chemical and Thermal Processes website](https://dofpro.org/CTP/).
+ 3. Create a logo for the [Rocketry website](https://dofpro.org/RCK/).
  4. Create a title screen for the [*What Is a Mole?*](https://docs.google.com/document/d/10n3r-hAi042YS5q6NA-e9l59_gJjjtlMWoEBPm5B5H4/edit?usp=sharing) video.
  5. Create a reveal.js presentation for slides 3 and 4 (page 2) of the [linked presentation](https://pages.hmc.edu/spjut/E82/lec/ConvertingTemperature.pdf).
  6. Recreate the process flow diagram (PFD) in the [linked problem](https://drive.google.com/file/d/1nFTj78bRb23Jkb39tgxb18pixNyBRfBJ/view?usp=sharing) with your choice of open-source software.

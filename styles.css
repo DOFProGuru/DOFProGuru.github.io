@@ -1,1 +1,30 @@
 /* css styles */
+
+body{
+    font-family:'Roboto Flex', sans-serif;
+    font-style: normal;
+}
+.navbar-title{
+    font-family:'Yantramanav', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+.navbar {
+    background-color: #3856DD;
+    font-family:'Yantramanav', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    height: 85px;
+}
+.navbar a:link {
+    color: white;
+}
+.navbar a:visited{
+    color: white;
+}
+body a:link {
+    color: #3856DD;
+}
+body a:visited{
+    color: #3856DD;
+}

@@ -7,7 +7,7 @@ The Degrees of Freedom Project (DOFPro) was founded to take previously developed
 
 Our chosen web development platform is [Quarto](https://quarto.org/). The chosen open-source packages are:
 
-  * LibereOffice
+  * LibreOffice
   * Python with NumPy and SciPy.
   * SageMath
   * FreeCAD

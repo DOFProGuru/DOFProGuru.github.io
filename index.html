@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -92,18 +121,36 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-chemical-and-thermal-processes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Chemical and Thermal Processes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-chemical-and-thermal-processes">    
+        <li>
+    <a class="dropdown-item" href="./ChemE.html">
+ <span class="dropdown-text">Intro</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ChemE.html"> 
-<span class="menu-text">Chemical and Thermal Processes</span></a>
+        <li>
+    <a class="dropdown-item" href="https://dofpro.org/CTP/">
+ <span class="dropdown-text">Website</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Rocketry.html"> 
-<span class="menu-text">Rocketry</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-rocketry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Rocketry</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-rocketry">    
+        <li>
+    <a class="dropdown-item" href="./Rocketry.html">
+ <span class="dropdown-text">Intro</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://dofpro.org/RCK/">
+ <span class="dropdown-text">Website</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./samples.html"> 
 <span class="menu-text">Samples</span></a>
@@ -150,19 +197,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Degrees of Freedom Project (DOFPro) was founded to take previously developed proprietary instructional information and convert it to be released under an open source license. The two sets of instructional information are in the areas of Chemical and Thermal Processes, and High Power Rocketry. The existing information was produced for Engineering classes at Harvey Mudd College. You can examine the existing websites and videos for the classes following the links below. In Chemical and Thermal Processes the links are <a href="https://pages.hmc.edu/spjut/E82/index.md.html">E82, Chemical and Thermal Processes</a>, <a href="https://pages.hmc.edu/spjut/E133/index.md.html">E133, Chemical Reaction Engineering</a> and <a href="https://pages.hmc.edu/spjut/E134/index.md.html">E134, Advanced Engineering Thermodynamics</a>. In High Power Rocketry, the link is <a href="https://pages.hmc.edu/spjut/AdvRoc/index.md.html">E178, High Power Rocketry</a>.</p>
-<p>Our chosen web development platform is <a href="https://quarto.org/">Quarto</a>. The chosen open-source packages are:</p>
+<p>The Degrees of Freedom Project (DOFPro) was founded to take previously developed proprietary instructional information and convert it to be released under an open source license. The two sets of instructional information are in the areas of Chemical and Thermal Processes, and High Power Rocketry. The existing information was produced for Engineering classes at Harvey Mudd College. You can examine the existing websites and videos for the classes following the links below.</p>
 <ul>
-<li>LibereOffice</li>
-<li>Python with NumPy and SciPy.</li>
-<li>SageMath</li>
-<li>FreeCAD</li>
-<li>DWSIM</li>
+<li>In Chemical and Thermal Processes the links are
+<ul>
+<li><a href="https://pages.hmc.edu/spjut/E82/index.md.html">E82, Chemical and Thermal Processes</a>,</li>
+<li><a href="https://pages.hmc.edu/spjut/E133/index.md.html">E133, Chemical Reaction Engineering</a> and</li>
+<li><a href="https://pages.hmc.edu/spjut/E134/index.md.html">E134, Advanced Engineering Thermodynamics</a>.</li>
+</ul></li>
+<li>In High Power Rocketry, the link is
+<ul>
+<li><a href="https://pages.hmc.edu/spjut/AdvRoc/index.md.html">E178, High Power Rocketry</a>.</li>
+</ul></li>
+</ul>
+<p>The project is currently in development and is intended to be completed and released in May 2025. Our chosen web development platform is <a href="https://quarto.org/">Quarto</a>. The chosen open-source packages are:</p>
+<ul>
+<li><a href="https://www.libreoffice.org/">LibreOffice</a></li>
+<li><a href="https://www.python.org/">Python</a> with <a href="https://numpy.org/">NumPy</a> and <a href="https://scipy.org/">SciPy</a>.</li>
+<li><a href="https://www.r-project.org/">R</a></li>
+<li><a href="https://www.sagemath.org/">SageMath</a></li>
+<li><a href="https://www.freecad.org/">FreeCAD</a></li>
+<li><a href="https://dwsim.org/">DWSIM</a></li>
 </ul>
 <p>with the possibility of other packages to be added.</p>
 <p>You can read more about the Chemical and Thermal Processes work at the <a href="./ChemE.html">link above</a>, or go to the current <a href="https://dofpro.org/CTP/">Chemical and Thermal Processes website</a>, which is in a very early state of development.</p>
 <p>You can read more about the High Power Rocketry work at the <a href="./Rocketry.html">link above</a>, or go to the current <a href="https://dofpro.org/RCK/">High Power Rocketry</a> website, which is in a very early state of development.</p>
 <p>If you would like to join the DOFPro team, please submit two samples of your work, chosen from the <a href="./samples.html">List of Samples</a> page to <a href="mailto:comments@dofpro.org?subject=%22Samples%22">comments@dofpro.org</a> and include “Samples” in your subject line. Please provide information about what two samples you have chosen and why you chose them.</p>
+<p><strong>About the Name and Logo</strong></p>
+<p>A <a href="https://en.wikipedia.org/wiki/Degrees_of_freedom">Degree of Freedom</a> is an independent coordinate, independent variable, or system parameter. To define the state of a system, you have to provide values for all of the degrees of freedom. In Chemical Engineering, for a mathematical model of a process, counting the degrees of freedom and the number of independent equations lets one determine if the problem is solvable or not. If there are three equations with three variables, one has <span class="math inline">\(3 - 3 = 0\)</span> degrees of freedom, and there exists one solution (possibly with multiple roots). If there are three variables and two equations, there are <span class="math inline">\(3 - 2 = 1\)</span> degree of freedom, and there are an infinite number of solutions, or one free variable that can be specified, perhaps to optimize some property.</p>
+<p>In rocketry, one can specify or determine the position and orientation of the rocket. For each <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, or <span class="math inline">\(z\)</span> spatial coordinate, there is one degree of freedom, and for each angular orientation, there is one degree of freedom. In both cases, identifying the degrees of freedom is a fundamental principle of the discipline. In addition, since the materials in the project are creative commons or open source, they are in some sense free, so people using the materials have a certain freedom in using them.</p>
+<p>The logo is a depiction of a rocket flying through a benzene ring (obviously not to scale). The benzene ring is one of the most recognizable chemical symbols in Chemical Engineering, and hopefully the role of rockets in rocketry is obvious.</p>
 
 
 

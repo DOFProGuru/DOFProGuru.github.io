@@ -7,10 +7,18 @@ website:
     logo: DOFPro_D7_Red_Flame_No_Background_cropped.png
     logo-alt: "DOFPro Logo"
     left:
-      - href: index.qmd
-        text: Home
-      - ChemE.qmd
-      - Rocketry.qmd
+      - text: 'Chemical and Thermal Processes'
+        menu:
+        - href: ChemE.qmd
+          text: Intro
+        - href: https://dofpro.org/CTP/
+          text: Website
+      - text: 'Rocketry'
+        menu:
+        - href: Rocketry.qmd
+          text: Intro
+        - href: https://dofpro.org/RCK/
+          text: Website
       - href: samples.qmd
         text: Samples
 

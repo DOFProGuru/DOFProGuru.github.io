@@ -13,7 +13,7 @@ The existing course websites, with links to the videos, are:
   * [E82, Chemical and Thermal Processes](https://pages.hmc.edu/spjut/E82/index.md.html)
   * [E133, Chemical Reaction Engineering](https://pages.hmc.edu/spjut/E133/index.md.html)
   * [E134, Advanced Engineering Thermodynamics](https://pages.hmc.edu/spjut/E134/index.md.html)
-  * [The Stats parts of E80](https://hmc-e80.github.io/E80/lectures/#week-2-statistics-for-experiments)
+  * [The Stats parts of E80](https://hmc-e80.github.io/lectures/#week-2-statistics-for-experiments)
   
 We are planning on rescripting and reshooting all of the videos, reorganizing and rewriting the websites, and converting all of the examples, problem sets, projects, and solutions to creative commons and open-source software. 
 

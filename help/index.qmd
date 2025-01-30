@@ -1,0 +1,112 @@
+---
+title: "Help the DOFPro Team Out"
+author: "DOFPro group"
+---
+
+# Please go to [dofpro.org/help](https://dofpro.org/help/index.html) If you have not already done so.
+
+## TL;DR
+
+We need help recording brief (2 minute) intrviews for the DOFPro videos. If you are willing to help, go to [https://bit.ly/4azDiaO](https://bit.ly/4azDiaO) and sign up.
+
+# About Professor Spjut:
+
+- Is currently the Union Oil Design Fellowship Professor in the Engineering Department at HMC.
+- Was the John Chipmann Assistant Professor of Chemical and Process Metallurgy in the Materials Science and Engineering at M.I.T.
+- Came to HMC in June 1988
+- Former Leadership Positions in the Department and at Mudd
+  - Engineering Clinic Director
+  - Director of Engineering Computing Facility
+  - Faculty Director of Machine Shop
+  - Chair of Scholarly Standing Committee
+  - Chair of Faculty Safety Committee
+- Educational Innovations at Mudd
+  - Taught every required Engineering class except for E83 and E84 (needed for other things)
+  - Codeveloped the Rocket version of E80 (most current E80 experiemnts and the field experience can be traced back to Rocket E80)
+  - Pioneered modern pedagogy methods (seminar style, flipped, group discussions, student-led discussions, etc.) in Engineering
+  - Codeveloped E79
+- Other Contributions
+  - Developed first Engineering Department website
+  - Chaired search committees that brought us:
+    - Nancy Lape
+    - Drew Price
+    - Lynn Kim
+  - Oldest son, Josef, was a visiting professor in Digital for 3 years.
+  - 2nd son, Jakob, was head proctor at South Dorm
+
+# We Need Interviewees!
+
+Research has shown that students learn best from educational videos when teh videos contain similar students wrestling with the video topics. We need **you** to be interviewees.
+
+Here is the (sample video with interviews).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kztw9GX9EL8?si=1dSn0SbWbVmKTdjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Here is the link to volunteer [https://bit.ly/4azDiaO](https://bit.ly/4azDiaO).
+
+Here is the [Media Release Form](https://drive.google.com/file/d/1w9DboCpJ6XCma0uf0j8wJrtvLASJx_YD/view?usp=sharing)).
+
+Here is the [current list of interview questions](https://docs.google.com/document/d/1aVh1JZLfZyhNEjMaOSNCWtaytWNiuKTgeulNyADhywc/edit?usp=sharing).
+
+
+**More about DOFPro**
+
+# Chemical and Thermal Processes
+
+You can read more about the Chemical and Thermal Processes work [here](ChemE.qmd), or go to the current [Chemical and Thermal Processes website](https://dofpro.org/CTP/).
+
+## Current Website and Videos
+
+The current version of the DOFPro Chemical and Thermal Processes website is in the early Alpha stage. The final release is scheduled for May 2025, but feel free to look at where we are in the development process. The website link is [here](https://dofpro.org/CTP/).
+
+As we are completing the videos, we are uploading them to YouTube, but leaving them unpublished. We plan on publishing them in May 2025. You are free to look at them now, but they are missing the description with links, the closed captioning, and the card links at the end. The current list of uploaded videos is [here](https://dofpro.org/CTP/basics/intro/CurrentVideoList.html).
+
+## Source Material Course Links
+
+The websites for the previously developed Engineering Courses which are being used as the source material for the DOFPro Chemical and Thermal Processes videos and websites are
+
+* [E82, Chemical and Thermal Processes](https://pages.hmc.edu/spjut/E82/index.md.html),
+* [E133, Chemical Reaction Engineering](https://pages.hmc.edu/spjut/E133/index.md.html) and
+* [E134, Advanced Engineering Thermodynamics](https://pages.hmc.edu/spjut/E134/index.md.html).
+* [The Stats parts of E80](https://hmc-e80.github.io/lectures/#week-2-statistics-for-experiments)
+
+# High Power Rocketry
+
+You can read more about the High Power Rocketry work  [here](Rocketry.qmd), or go to the current [High Power Rocketry](https://dofpro.org/RCK/) website.
+
+## Current Website and Videos
+
+The current version of the DOFPro High Power Rocketry website is in the early Alpha stage. The final release is scheduled for May 2025, but feel free to look at where we are in the development process. The website link is [here](https://dofpro.org/RCK/).
+
+## Source Material Course Links
+
+The websites for the previously developed Engineering Courses which are being used as the source material for the DOFPro High Power Rocketry videos and websites are
+
+* [E178, High Power Rocketry](https://pages.hmc.edu/spjut/AdvRoc/index.md.html).
+* [E80, Experimental Engineering The Next Generation](https://pages.hmc.edu/spjut/NewE80/)
+
+# Development Tools
+
+We are attempting to use open-source tools to the extent possible for the development process. Our chosen web development platform is [Quarto](https://quarto.org/). The chosen open-source tools are:
+
+  * [LibreOffice](https://www.libreoffice.org/)
+  * [Python](https://www.python.org/) with [NumPy](https://numpy.org/) and [SciPy](https://scipy.org/).
+  * [R](https://www.r-project.org/)
+  * [SageMath](https://www.sagemath.org/)
+  * [FreeCAD](https://www.freecad.org/)
+  * [DWSIM](https://dwsim.org/)
+
+with the possibility of other packages to be added.
+
+
+
+
+
+If you would like to join the DOFPro team, please submit two samples of your work, chosen from the [List of Samples](samples.qmd) page to [comments\@dofpro.org](mailto:comments\@dofpro.org?subject="Samples") and include "Samples" in your subject line. Please provide information about what two samples you have chosen and why you chose them.
+
+# About the Name and Logo
+
+A [Degree of Freedom](https://en.wikipedia.org/wiki/Degrees_of_freedom) is an independent coordinate,  independent variable, or system parameter. To define the state of a system, you have to provide values for all of the degrees of freedom. In Chemical Engineering, for a mathematical model of a process, counting the degrees of freedom and the number of independent equations lets one determine if the problem is solvable or not. If there are three equations with three variables, one has $3 - 3 = 0$ degrees of freedom, and there exists one solution (possibly with multiple roots). If there are three variables and two equations, there are $3 - 2 = 1$ degree of freedom, and there are an infinite number of solutions, or one free variable that can be specified, perhaps to optimize some property.
+
+In rocketry, one can specify or determine the position and orientation of the rocket. For each $x$, $y$, or $z$ spatial coordinate, there is one degree of freedom, and for each angular orientation, there is one degree of freedom. In both cases, identifying the degrees of freedom is a fundamental principle of the discipline. In addition, since the materials in the project are creative commons or open source, they are in some sense free, so people using the materials have a certain freedom in using them.
+
+The logo is a depiction of a rocket flying through a benzene ring (obviously not to scale). The benzene ring is one of the most recognizable chemical symbols in Chemical Engineering, and hopefully the role of rockets in rocketry is obvious.

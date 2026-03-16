@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Help the DOFPro Team Out"
 author: "DOFPro group"
 ---
@@ -112,3 +112,4 @@ A [Degree of Freedom](https://en.wikipedia.org/wiki/Degrees_of_freedom) is an in
 In rocketry, one can specify or determine the position and orientation of the rocket. For each $x$, $y$, or $z$ spatial coordinate, there is one degree of freedom, and for each angular orientation, there is one degree of freedom. In both cases, identifying the degrees of freedom is a fundamental principle of the discipline. In addition, since the materials in the project are creative commons or open source, they are in some sense free, so people using the materials have a certain freedom in using them.
 
 The logo is a depiction of a rocket flying through a benzene ring (obviously not to scale). The benzene ring is one of the most recognizable chemical symbols in Chemical Engineering, and hopefully the role of rockets in rocketry is obvious.
+-->

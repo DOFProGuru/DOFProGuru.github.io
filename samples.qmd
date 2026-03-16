@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Samples of Needed Abilities"
 author: "DOFPro group"
 format: html
@@ -79,3 +79,5 @@ We have lots of example solutions, assignment solutions, projects, and CAD files
   4. Convert the [linked ".nb" file](https://drive.google.com/file/d/1nkY3Uw0mS3nqiFPQYPgbHJmhizsgYgvS/view?usp=sharing) into SageMath code.
   5. Convert the [linked ".SLDPRT" file](https://drive.google.com/file/d/1nkgtu4yxQ6RoPLs3ljCx3XqANtPwT4i4/view?usp=sharing) into an "FCStd" file.
   6. Convert the linked ".prz" to a ".dwxmz" file.
+
+  -->

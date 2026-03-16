@@ -1,12 +1,47 @@
 ---
-title: "Rocketry"
+title: "High Power Rocketry"
 author: "DOFPro group"
 ---
 
-# Introduction
+# High Power Rocketry (RCK)
 
-The High Power Rocketry materials were developed for the Harvey Mudd course [E178, High Power Rocketry](https://pages.hmc.edu/spjut/AdvRoc/index.md.html). This course grew out of the rocketry version of [E80, Experimental Engineering](https://pages.hmc.edu/spjut/NewE80/) which ran from Spring 2008 through Spring 2016. The course was converted to underwater autonomous vehicles for Spring 2017. The current E80 website is linked [here](https://hmc-e80.github.io/).
+The **High Power Rocketry (RCK)** portion of DOFPro provides open educational materials on the design, analysis, and construction of high-power rockets.
 
-For the Degrees of Freedom version, we are converting the website from being oriented as a course to being a tutorial on High Power Rocketry as defined in [NFPA 1127](https://www.nfpa.org/codes-and-standards/1/nfpa-1/2/nfpa-1127) and by \[TRA\](<https://www.tripoli.org/>) and \[NAR\](<https://www.nar.org/>). The extensive code base in MATLAB is being rewritten in Python with NumPy and SciPy. The Mathematica code base is being rewritten in SageMath. The Microsoft Excel spreadsheets are being converted to LibreOffice. The RockSim models have all been converted to Open Rocket. The extensive SolidWorks files are all being converted to FreeCAD. We haven't yet forund a good alternative for LabVIEW. Any copyrighted references are being replaced with creative commons or other open source references. We will also be filming instructional videos as well as converting the existing rocket construction web pages.
+👉 Visit the full rocketry site here:  
+[https://dofpro.org/RCK/](https://dofpro.org/RCK/)
 
-The link to the [High Power Rocketry website](https://dofpro.org/RCK/) is [here](https://dofpro.org/RCK/). It is currently a very rough skeletal outline but it will see rapid development over the next several months.
+# Origins of the Material
+
+The High Power Rocketry materials were originally developed for the Harvey Mudd College course  
+[E178, High Power Rocketry](https://pages.hmc.edu/spjut/AdvRoc/index.md.html).
+
+That course grew out of the rocketry version of  
+[E80, Experimental Engineering](https://pages.hmc.edu/spjut/NewE80/), which ran from **Spring 2008 through Spring 2016**. Beginning in Spring 2017 the E80 course was converted to a project based on **underwater autonomous vehicles**. The current E80 site is available [here](https://hmc-e80.github.io/).
+
+# DOFPro Version
+
+For DOFPro, the material is being converted from a **course website** into a **self-contained tutorial on High Power Rocketry** as defined by:
+
+- [NFPA 1127 — Code for High Power Rocketry](https://www.nfpa.org/codes-and-standards/1/nfpa-1/2/nfpa-1127)
+- [Tripoli Rocketry Association (TRA)](https://www.tripoli.org/)
+- [National Association of Rocketry (NAR)](https://www.nar.org/)
+
+The original course relied heavily on proprietary tools. As part of the DOFPro project, these materials are being converted to **open-source tools** wherever possible.
+
+Examples include:
+
+- MATLAB → **Python (NumPy, SciPy)**
+- Mathematica → **SageMath**
+- Microsoft Excel → **LibreOffice**
+- RockSim → **OpenRocket**
+- SolidWorks → **FreeCAD**
+
+We have not yet identified a suitable open-source replacement for **LabVIEW**.
+
+In addition to converting the computational tools, we are also:
+
+- replacing copyrighted references with **Creative Commons or open-source materials**
+- recording **instructional videos**
+- converting the existing rocket construction web pages into DOFPro format
+
+The videos have already been filmed but have not yet been fully edited.

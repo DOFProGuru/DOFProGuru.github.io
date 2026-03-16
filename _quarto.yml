@@ -19,8 +19,6 @@ website:
           text: Intro
         - href: https://dofpro.org/RCK/
           text: Website
-      - href: samples.qmd
-        text: Samples
 
 
 format:

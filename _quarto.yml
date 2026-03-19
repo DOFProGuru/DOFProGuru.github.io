@@ -19,7 +19,7 @@ website:
           text: Intro
         - href: https://dofpro.org/RCK/
           text: Website
-
+  favicon: favicon.ico          
 
 format:
   html:

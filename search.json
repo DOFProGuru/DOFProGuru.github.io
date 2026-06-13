@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "Rocketry.html",
-    "href": "Rocketry.html",
-    "title": "High Power Rocketry",
-    "section": "",
-    "text": "High Power Rocketry (RCK)\nThe High Power Rocketry (RCK) portion of DOFPro provides open educational materials on the design, analysis, and construction of high-power rockets.\n👉 Visit the full rocketry site here:\nhttps://dofpro.org/RCK/\n\n\nOrigins of the Material\nThe High Power Rocketry materials were originally developed for the Harvey Mudd College course\nE178, High Power Rocketry.\nThat course grew out of the rocketry version of\nE80, Experimental Engineering, which ran from Spring 2008 through Spring 2016. Beginning in Spring 2017 the E80 course was converted to a project based on underwater autonomous vehicles. The current E80 site is available here.\n\n\nDOFPro Version\nFor DOFPro, the material is being converted from a course website into a self-contained tutorial on High Power Rocketry as defined by:\n\nNFPA 1127 — Code for High Power Rocketry\nTripoli Rocketry Association (TRA)\nNational Association of Rocketry (NAR)\n\nThe original course relied heavily on proprietary tools. As part of the DOFPro project, these materials are being converted to open-source tools wherever possible.\nExamples include:\n\nMATLAB → Python (NumPy, SciPy)\nMathematica → SageMath\nMicrosoft Excel → LibreOffice\nRockSim → OpenRocket\nSolidWorks → FreeCAD\n\nWe have not yet identified a suitable open-source replacement for LabVIEW.\nIn addition to converting the computational tools, we are also:\n\nreplacing copyrighted references with Creative Commons or open-source materials\nrecording instructional videos\nconverting the existing rocket construction web pages into DOFPro format\n\nThe videos have already been filmed but have not yet been fully edited."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "DOFPro",
@@ -54,5 +47,12 @@
     "title": "Chemical and Thermal Processes",
     "section": "",
     "text": "The CTP materials were originally developed for the following Harvey Mudd College courses:\n\nE82, Chemical and Thermal Processes\nE133, Chemical Reaction Engineering\nE134, Advanced Engineering Thermodynamics\nStatistics modules from E80\n\nThe original course materials relied on copyrighted textbooks and commercial software.\nFor DOFPro they were rewritten, reorganized, and converted to Creative Commons and open-source tools."
+  },
+  {
+    "objectID": "Rocketry.html",
+    "href": "Rocketry.html",
+    "title": "High Power Rocketry",
+    "section": "",
+    "text": "High Power Rocketry (RCK)\nThe High Power Rocketry (RCK) portion of DOFPro provides open educational materials on the design, analysis, and construction of high-power rockets.\n👉 Visit the full rocketry site here:\nhttps://dofpro.org/RCK/\n\n\nOrigins of the Material\nThe High Power Rocketry materials were originally developed for the Harvey Mudd College course\nE178, High Power Rocketry.\nThat course grew out of the rocketry version of\nE80, Experimental Engineering, which ran from Spring 2008 through Spring 2016. Beginning in Spring 2017 the E80 course was converted to a project based on underwater autonomous vehicles. The current E80 site is available here.\n\n\nDOFPro Version\nFor DOFPro, the material is being converted from a course website into a self-contained tutorial on High Power Rocketry as defined by:\n\nNFPA 1127 — Code for High Power Rocketry\nTripoli Rocketry Association (TRA)\nNational Association of Rocketry (NAR)\n\nThe original course relied heavily on proprietary tools. As part of the DOFPro project, these materials are being converted to open-source tools wherever possible.\nExamples include:\n\nMATLAB → Python (NumPy, SciPy)\nMathematica → SageMath\nMicrosoft Excel → LibreOffice\nRockSim → OpenRocket\nSolidWorks → FreeCAD\n\nWe have not yet identified a suitable open-source replacement for LabVIEW.\nIn addition to converting the computational tools, we are also:\n\nreplacing copyrighted references with Creative Commons or open-source materials\nrecording instructional videos\nconverting the existing rocket construction web pages into DOFPro format\n\nThe videos have already been filmed but have not yet been fully edited."
   }
 ]
